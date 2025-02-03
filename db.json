@@ -1,3 +1,9 @@
 {
-    "books":[ ]
+  "books": [
+    {
+      "id": "32dc",
+      "name": "zzzz",
+      "image": "https://picsum.photos/200/300"
+    }
+  ]
 }

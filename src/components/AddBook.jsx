@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 
+import useBooks from '../hooks/useContext'
 
-const AddBook = ({createBook}) => {
+const AddBook = () => {
     const [text,setText]= useState('');
+    const {createBook}= useBooks();
   return (
     <div style={{maxWidth:'450px'}} className='border rounded p-4 '>
       <form onSubmit={(event)=>{event.preventDefault(); createBook(text)}}>
